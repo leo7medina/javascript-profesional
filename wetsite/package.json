@@ -1,0 +1,19 @@
+{
+  "name": "javascript-profesional",
+  "version": "1.0.0",
+  "description": "curso aprendizaje javascript profesional",
+  "scripts": {
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leonardo Medina <leo7medina@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1",
+    "typescript": "^4.6.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}

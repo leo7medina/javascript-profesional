@@ -1,16 +1,16 @@
 {
-  "name": "javascript-profesional",
+  "name": "@leonardo/mediaplayer",
   "version": "1.0.0",
-  "description": "curso aprendizaje javascript profesional",
-  "main": "assets/index.js",
+  "description": "",
+  "main": "/lib/index.js",
   "scripts": {
-    "start": "live-server",
+    "build": "tsc src/**/*.ts src/plugins/**/*.ts --outDir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Leonardo Medina <leo7medina@gmail.com>",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "typescript": "^4.3.4"
   }
 }
